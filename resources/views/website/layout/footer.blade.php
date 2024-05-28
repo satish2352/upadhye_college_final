@@ -14,12 +14,12 @@
                                     </a>
                                 </div>
                                 <p class="description">Upadhye Best science colleges in Nashik Today Nashik has become an industrial center and in the last six decades the eternal Godavari has silently watched a great change.</p>
-                                <ul class="social-share">
+                                {{-- <ul class="social-share">
                                     <li><a href="{{ $website_contact_details[0]['twitter_link'] }}"><i class="icon-Twitter"></i></a></li>
                                     <li><a href="{{ $website_contact_details[0]['facebook_link'] }}"><i class="icon-Fb"></i></a></li>
                                     <li><a href="{{ $website_contact_details[0]['youtube_link'] }}"><i class="icon-youtube"></i></a></li>
                                     <li><a href="{{ $website_contact_details[0]['instagram_link'] }}"><i class="fa-brands fa-instagram"></i></a></li>
-                                </ul>
+                                </ul> --}}
                             </div>
                         </div>
 
@@ -59,14 +59,14 @@
                                 <h5 class="widget-title">Contact Info</h5>
                                 <div class="inner">
                                     <div class="widget-information">
-                                        <ul class="information-list">
+                                        {{-- <ul class="information-list">
                                             <li><i class="icon-map-pin-line"></i>{{ $website_contact_details[0]['address'] }}
                                             </li>
                                             <li><i class="icon-phone-fill"></i><a href="tel::{{ $website_contact_details[0]['contact_one'] }}">{{ $website_contact_details[0]['contact_one'] }}</a></li>
                                             <li><i class="icon-phone-fill"></i><a href="tel::{{ $website_contact_details[0]['contact_two'] }}">{{ $website_contact_details[0]['contact_two'] }}</a></li>
                                             <li><i class="icon-phone-fill"></i><a href="tel::{{ $website_contact_details[0]['contact_three'] }}">{{ $website_contact_details[0]['contact_three'] }}</a></li>
                                             <li><i class="icon-mail-line-2"></i><a target="_blank" href="mailto:{{ $website_contact_details[0]['mail_id'] }}">{{ $website_contact_details[0]['mail_id'] }}</a></li>
-                                        </ul>
+                                        </ul> --}}
                                     </div>
                                 </div>
                             </div>

@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('tbl_comitee', function (Blueprint $table) {
+        Schema::create('tbl_service', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedBigInteger('service_id');
             $table->text('name');
@@ -34,6 +34,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tbl_comitee');
+        Schema::dropIfExists('tbl_service');
     }
 };

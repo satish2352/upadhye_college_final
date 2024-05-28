@@ -15,7 +15,6 @@ return new class extends Migration
     {
         Schema::create('course_details', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->int('id');
             $table->string('title');
             $table->text('short_description');
             $table->text('long_description');

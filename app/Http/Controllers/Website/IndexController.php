@@ -29,10 +29,10 @@ class IndexController extends Controller
             // Fetching the value of gallery from database
             $galleryDetailsData = Gallery::where('is_active', 1)->get();
     
-            // $website_contact_details = WebsiteContactDetails::where('id',1)->get()->toArray();
+            $website_contact_details = WebsiteContactDetails::where('id',1)->get()->toArray();
 
             // dd($website_contact_details);
-            return view('website.pages.index', compact('dataSlider', 'resourcesData', 'serviceDetailsData', 'galleryDetailsData'));
+            return view('website.pages.index', compact('dataSlider', 'resourcesData', 'serviceDetailsData', 'galleryDetailsData', 'website_contact_details'));
         } catch (\Exception $e) {
             return $e;
         }

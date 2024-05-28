@@ -18,10 +18,13 @@ class WebsiteContactDetailsSeeder extends Seeder
         WebsiteContactDetails::create(
             [
                 'contact_one'  => '+ 91- 8888352777',
+                'contact_three'  => '+ 91- 8888352777',
                 'contact_two'  => '0253-7966831',
                 'mail_id'  => 'info@fibovix.com',
+                'youtube_link'  => '#',
                 'facebook_link'  => '#',
                 'instagram_link'  => '#',
+                'twitter_link'  => '#',
                 'address' => 'Express towers, Marine Dr, Nariman Point, Mumbai, Maharashtra 400021'
             ]);
     }

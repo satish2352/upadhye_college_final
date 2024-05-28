@@ -21,8 +21,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
 {
-    $website_contact_details=WebsiteContactDetails::get();
-    View::share('website_contact_details', $website_contact_details);
+    // $website_contact_details=WebsiteContactDetails::get();
+    // View::share('website_contact_details', $website_contact_details);
 
 }
 }
